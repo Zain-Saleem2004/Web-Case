@@ -35,3 +35,5 @@ with col4:
         st.title(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
+        st.write(f"[Source code]({row['url']})")
+
